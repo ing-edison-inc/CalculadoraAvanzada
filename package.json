@@ -1,0 +1,25 @@
+{
+  "name": "calculadora-avanzada",
+  "version": "1.0.0",
+  "description": "Calculadora avanzada con gráficas estadísticas en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["calculadora", "estadisticas", "graficas", "javascript"],
+  "author": "ing.edison.inc@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mathjs": "^11.11.1",
+    "simple-statistics": "^7.8.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  }
+} 
